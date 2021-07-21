@@ -1,0 +1,21 @@
+{
+    "name": "sevming/laravel-optimistic-lock",
+    "description": "Laravel Optimistic Lock",
+    "homepage": "https://github.com/sevming/laravel-optimistic-lock",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sevming",
+            "email": "sevming@foxmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sevming\\LaravelOptimisticLock\\": "src"
+        }
+    }
+}
